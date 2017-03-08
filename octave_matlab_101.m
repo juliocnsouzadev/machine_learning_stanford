@@ -88,3 +88,9 @@ SumByColumnMagicSqrt = sum(MagicSqrt, 1)
 SumByRowMagicSqrt = sum(MagicSqrt, 2)
 IndentityMatrixOf9 = eye(9)
 InvertedIndentityMatrixOf9 =flipud(IndentityMatrixOf9)
+
+%plotiing data
+PlotData = [0:0.01:0.98]
+PlotFunc = sqrt(112^3*(PlotData))
+plot(PlotData, PlotFunc)
+imagesc(MagicSqrt) %plots the matrix
