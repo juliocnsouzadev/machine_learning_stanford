@@ -94,3 +94,18 @@ PlotData = [0:0.01:0.98]
 PlotFunc = sqrt(112^3*(PlotData))
 plot(PlotData, PlotFunc)
 imagesc(MagicSqrt) %plots the matrix
+
+%control statements
+vector1 = zeros(10,1)
+for i=1:10
+  v(i) = 2^i;
+end;
+i = 1;
+while i<=5
+  v(i) = 100;
+  i = i+1;
+end;
+if (true)
+  disp(1)
+ end;
+ 
